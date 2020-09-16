@@ -1,0 +1,47 @@
+.block {
+  width: 500px;
+  padding: 100px 20px;
+  margin: 0 auto;
+  margin: 0 auto;
+  border: 1px solid #000;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.block .input {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.block .input:hover {
+  border: 1px solid blue;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.block button {
+  margin-left: 15px;
+  width: 150px;
+}
+
+.block button:hover {
+  border: 1px solid blue;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.newElem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 3px solid black;
+}
+
+.newElem input {
+  text-align: right;
+  cursor: pointer;
+}
